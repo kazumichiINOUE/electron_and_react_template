@@ -1,7 +1,7 @@
 # Usage
 ```bash
-git clone <this repository>
-cd <this repository dir>
+git clone git@github.com:kazumichiINOUE/electron_and_react_template.git
+cd electron_and_react_template
 npm install
 npm start
 # other ternimal
