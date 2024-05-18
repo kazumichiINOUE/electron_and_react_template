@@ -20,6 +20,17 @@ module.exports = {
         test: /\.css$/,  // Add this block to handle CSS files
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {

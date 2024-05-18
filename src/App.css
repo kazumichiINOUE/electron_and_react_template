@@ -43,7 +43,7 @@ header {
 }
 
 main {
-    padding: 80px 10px 60px; /* Adjust padding to avoid overlap with the fixed header */
+    padding: 80px 10px 80px; /* Adjust padding to avoid overlap with the fixed header */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -80,4 +80,15 @@ article {
   margin-left: 0px;
   margin-bottom: 10px;
   font-weight: 400; /* ExtraBold */
+}
+
+img {
+  align-items: center;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-left: auto;
+  margin-right: auto;
 }
