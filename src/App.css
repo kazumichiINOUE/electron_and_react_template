@@ -1,0 +1,83 @@
+/* public/styles.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  #font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-color: #fdfdff;
+  padding-left: 30px
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 700; /* ExtraBold */
+}
+
+h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;  /* Ensure the header starts from the left edge */
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;  /* Padding increased for better visual appearance */
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Adding a slight shadow for depth */
+}
+
+main {
+    padding: 80px 10px 60px; /* Adjust padding to avoid overlap with the fixed header */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: calc(100vh - 120px); /* 60px for header and 60px for footer */
+}
+
+p {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  font-size: 28px;
+  color: #333;
+  font-weight: 700; /* ExtraBold */
+}
+
+article {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-weight: 400; /* ExtraBold */
+}
